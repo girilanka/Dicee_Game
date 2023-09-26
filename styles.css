@@ -11,7 +11,7 @@
 }
 
 .gradient-background {
-  background: linear-gradient(300deg, #ef8172,#00bfff,#ef8172);
+  background: linear-gradient(300deg, rgb(77,236,96),#00bfff,rgb(77,236,96));
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
