@@ -10,6 +10,16 @@
 
 }
 
+button{
+  margin-top:8%;
+}
+p{
+  margin-bottom:0%;
+  font-family:  cursive;
+  font-size:2px;
+  color:pink;
+}
+
 .gradient-background {
   background: linear-gradient(300deg, rgb(77,236,96),#00bfff,rgb(77,236,96));
   background-size: 180% 180%;
@@ -39,17 +49,19 @@ h1 {
 .player1 {
   font-size: 2rem;
   color: #cc4e4e;
-  font-family: 'Indie Flower', cursive;
+  font-family: sans-serif;
 }
 
 .player2 {
   font-size: 2rem;
   color: #c14ecc;
-  font-family: 'Indie Flower', cursive;
+  font-family: sans-serif;
 }
 
 img {
   width: 80%;
 }
+
+
 
 

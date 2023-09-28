@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Dicee</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
   </head>
   <body class="gradient-background">
@@ -13,14 +15,20 @@
       <h1>Refresh Me</h1>
 
       <div class="dice">
-        <p class="player1">Player 1</p>
+        <p class="player1"><b>Player 1</b></p>
         <img class="img" src="images/dice6.png">
       </div>
 
       <div class="dice">
-        <p class="player2">Player 2</p>
+        <p class="player2"><b>Player 2</b></p>
         <img class="img" src="images/dice6.png">
       </div>
+
+
+
+      <center>
+        <button onclick="window.location.reload();" type="button" class="btn btn-dark col-2"><p>Refresh 🔃</p></button>
+      </center>
 
     </div>
 
